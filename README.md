@@ -2,6 +2,10 @@
 
 Game developed to Mobile Application Development course of Canadore College using canvas and JavaScript.
 
+# Live Preview
+
+Check out this link to test the game: https://protected-eyrie-39690.herokuapp.com
+
 # Change Log
 
 Changes made in the source tutorial.
