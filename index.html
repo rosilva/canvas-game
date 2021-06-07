@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Canvas</title>
+  <link rel="stylesheet" href="app.css">
+</head>
+<body>
+  <canvas id="animation"></canvas>
+
+  <div class="score-small">
+    <span>Score:</span>
+    <span class="score-value">0</span>
+  </div>
+
+  <div class="score-big card-wrapper">
+    <div class="card">
+      <p>Current score</p>
+      <h1 class="score-value">0</h1>
+      <p>Points</p>
+
+      <hr>
+
+      <p>Best score</p>
+      <h1 class="best-score">0</h1>
+      <p>Points</p>
+
+      <select id="game-level">
+        <option value="0.5">Very easy</option>
+        <option value="1">Easy</option>
+        <option value="1.5">Medium</option>
+        <option value="2">Hard</option>
+        <option value="3">Very hard</option>
+      </select>
+
+      <div>
+        <button id="start-game-btn">Start Game</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="app.js" type="module"></script>
+</body>
+</html>
